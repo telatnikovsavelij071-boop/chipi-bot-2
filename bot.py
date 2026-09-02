@@ -6,11 +6,10 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from google import genai
 
 # Конфигурация бота и Gemini API
-BOT_TOKEN = "8862843340:AAFYvtYALPb52GNbv21O79fIx726fQKzHIM"
-GEMINI_KEY = "AQ.Ab8RN6KUfc8coIo98smFTtQiNC4ieZWsMJDJarEZ3LiEpv1oqw"
+BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 
 MODELS = [
-    {"name": "gemini-3.5-flash", "label": "3.5 Flash"},
     {"name": "gemini-2.5-flash", "label": "2.5 Flash"},
     {"name": "gemini-3.5-flash-lite", "label": "3.5 Flash-Lite"},
     {"name": "gemini-2.0-flash", "label": "2.0 Flash"},
