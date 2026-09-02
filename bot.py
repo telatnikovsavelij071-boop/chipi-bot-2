@@ -7,7 +7,7 @@ from google import genai
 
 # Конфигурация бота и Gemini API
 BOT_TOKEN = "8862843340:AAFYvtYALPb52GNbv21O79fIx726fQKzHIM"
-GEMINI_KEY = "AQ.Ab8RN6Im6Ft8N5iIwicCWhea6G-3y-EV704U5C0HAkosWs81NQ"
+GEMINI_KEY = "AQ.Ab8RN6KUfc8coIo98smFTtQiNC4ieZWsMJDJarEZ3LiEpv1oqw"
 
 MODELS = [
     {"name": "gemini-3.5-flash", "label": "3.5 Flash"},
